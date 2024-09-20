@@ -55,12 +55,12 @@ nav .nav-item {
 }
 
 /* ////////   main setting      */
-.main-img {
+/* .main-img {
     background-color: aqua;
     height: 400px;
     width: 400px;
     margin: 20px;
-}
+} */
 
 /* main settings */
 main .inves {
@@ -91,8 +91,8 @@ main .inves {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 5rem;
-    left: 39rem;
+    bottom: 4rem;
+    left: 33rem;
 }
 
 .btn-inves {
@@ -197,7 +197,7 @@ main .inves {
     background-image: url("./pictures/promo_ipadpro__ch217v9v7no2_medium.jpg");
     background-size: cover;
     height: 500px;
-    width: 600px;
+    width: 500px;
 
 }
 
@@ -205,14 +205,14 @@ main .inves {
     background-image: url("./pictures/hero-laptop.jpg");
     background-size: cover;
     height: 500px;
-    width: 600px;
+    width: 500px;
 }
 
 .img-3 {
     background-image: url("./pictures/promo_apple_vision_pro__f4v4zp0sum2y_medium.jpg");
     background-size: cover;
     height: 500px;
-    width: 600px;
+    width: 500px;
 
 }
 
@@ -220,25 +220,25 @@ main .inves {
     background-image: url("./pictures/hero-watch.jpg");
     background-size: cover;
     height: 500px;
-    width: 600px;
+    width: 500px;
 }
 
 .img-5 {
     background-image: url("./pictures/promo_apple_card__5cm7draujpey_medium\ \(1\).jpg");
     background-size: cover;
     height: 500px;
-    width: 600px;
+    width: 500px;
 }
 
 .img-6 {
     background-image: url("./pictures/promo_iphone_tradein__bugw15ka691e_small.jpg");
     background-size: cover;
     height: 500px;
-    width: 600px;
+    width: 500px;
 }
 
-/* flex images button and text setting */
-/* div no 1 image and text button */
+/* ------flex images button and text setting--------- */
+/* ---------div no 1 image and text button --------*/
 .img-1 h1 {
     text-align: center;
     margin: 20px;
@@ -407,14 +407,15 @@ footer {
 /* ----------pargraph -------------- */
 .para {
     min-height: 700px;
-  width: 80%;
+  width: 90%;
   background-color: #e3e7ebec;
   margin: auto;
 }
 
 .para p {
     text-align: center;
-    margin: 16px;
+    margin: 17px;
+
     font-size: 1rem;
     padding: 1rem;
    
@@ -483,8 +484,7 @@ gap: 40px;
 .icons {
     margin-left: 40rem;
     margin-top: 2.3rem;
-    font-size: 1.3rem;
-    
+    font-size: 1.3rem;  
  }
  .icons i  {
 color:rgb(238, 234, 234);
@@ -495,33 +495,19 @@ color:rgb(238, 234, 234);
  /* ----------line ----- */
  .line{
    margin-top: 40px;
-   margin-left: 40px;
+   margin-left: 60px;
     color: rgba(248, 241, 241, 0.905);
-  
+
  }
  hr {
     color: #fff;
  }
- .last-line {
-display: flex;
-    color: white;
-   
+ .last-line  {
+
+margin-left: 60px;
+    color: white; 
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .hide {
         display: none;
     }
@@ -533,4 +519,31 @@ display: flex;
     .bar {
         display: block;
     }
+    footer {
+      display: block;
+        width: 100%;
+    }
+    .para {
+        width: 100%;
+    }
+    .para p {
+        font-size: 0.9rem;
+    }
+    main .inves  {
+        width: 100%;
+        height: 400px;
+    }
+    .inves h1 {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+ .btn {
+    display: none;
+ }
+ .icons {
+    display: inline-block;
+    margin-left: 20rem;
+    /* margin-top: 2.3rem; */
+    font-size: 1rem;  
+ }
 }
